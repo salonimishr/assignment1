@@ -6,4 +6,4 @@ Again, for resizing, John's code to resize 1000 images took 10.1seconds as it is
 
 For multithreading, I used threading module and defined a function worker and ran the code using 10 workers. The different numbers for worker are tried but with downloading 1000 images I reached the maximum downloading images. The worker 10 was found best among the other tries. For multiprocessing, I used "multiprocessing" module and used 10 pools and it ran the 10 parallel processing to perform the same task. The other pool size less than 10 and more than 10 were also used but the performance was found best with minimum time for pool 10.
 
-For I/O bound operation multithreading and for CPU bound operation multiprocessing reduced the time significantly. 
+For I/O bound operation multithreading and for CPU bound operation multiprocessing reduced the time significantly. Images and resized images can not be uploaded in Github due to the restriction on number of files that should be less than 100.
